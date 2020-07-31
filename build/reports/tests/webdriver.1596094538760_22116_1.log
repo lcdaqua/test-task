@@ -1,0 +1,376 @@
+[1596094538.991][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 20970
+[1596094538.991][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1596094539.672][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\l.morales\\IdeaProjects\\test-for-job\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\l.morales\\IdeaProjects\\test-for-job\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1596094539.674][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\l.morales\\IdeaProjects\\test-for-job\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1596094539.675][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1596094539.676][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\LDD27~1.MOR\AppData\Local\Temp\scoped_dir19836_2132880677" data:,
+[1596094540.230][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1596094540.234][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1596094540.240][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.116",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+         "userDataDir": "C:\\Users\\LDD27~1.MOR\\AppData\\Local\\Temp\\scoped_dir19836_2132880677"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52157"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a6501b22e7439a0622fef482dc7a7be3"
+}
+[1596094540.307][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1596094540.307][INFO]: Waiting for pending navigations...
+[1596094540.308][INFO]: Done waiting for pending navigations. Status: ok
+[1596094540.415][INFO]: Waiting for pending navigations...
+[1596094540.415][INFO]: Done waiting for pending navigations. Status: ok
+[1596094540.415][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1596094540.432][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND Navigate {
+   "url": "http://google.com/"
+}
+[1596094540.432][INFO]: Waiting for pending navigations...
+[1596094540.434][INFO]: Done waiting for pending navigations. Status: ok
+[1596094541.081][INFO]: Waiting for pending navigations...
+[1596094541.800][INFO]: Done waiting for pending navigations. Status: ok
+[1596094541.800][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE Navigate
+[1596094541.878][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094541.878][INFO]: Waiting for pending navigations...
+[1596094541.879][INFO]: Done waiting for pending navigations. Status: ok
+[1596094541.889][INFO]: Waiting for pending navigations...
+[1596094541.889][INFO]: Done waiting for pending navigations. Status: ok
+[1596094541.889][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094542.117][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094542.117][INFO]: Waiting for pending navigations...
+[1596094542.119][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.124][INFO]: Waiting for pending navigations...
+[1596094542.125][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.125][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094542.335][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094542.335][INFO]: Waiting for pending navigations...
+[1596094542.336][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.341][INFO]: Waiting for pending navigations...
+[1596094542.341][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.341][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094542.550][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094542.550][INFO]: Waiting for pending navigations...
+[1596094542.551][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.557][INFO]: Waiting for pending navigations...
+[1596094542.557][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.558][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094542.767][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094542.767][INFO]: Waiting for pending navigations...
+[1596094542.768][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.773][INFO]: Waiting for pending navigations...
+[1596094542.774][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.774][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094542.986][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094542.986][INFO]: Waiting for pending navigations...
+[1596094542.987][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.992][INFO]: Waiting for pending navigations...
+[1596094542.993][INFO]: Done waiting for pending navigations. Status: ok
+[1596094542.993][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094543.204][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094543.204][INFO]: Waiting for pending navigations...
+[1596094543.205][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.209][INFO]: Waiting for pending navigations...
+[1596094543.210][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.210][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094543.420][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094543.420][INFO]: Waiting for pending navigations...
+[1596094543.421][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.425][INFO]: Waiting for pending navigations...
+[1596094543.426][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.426][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094543.635][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094543.635][INFO]: Waiting for pending navigations...
+[1596094543.637][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.642][INFO]: Waiting for pending navigations...
+[1596094543.642][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.643][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094543.851][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094543.851][INFO]: Waiting for pending navigations...
+[1596094543.852][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.856][INFO]: Waiting for pending navigations...
+[1596094543.857][INFO]: Done waiting for pending navigations. Status: ok
+[1596094543.857][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094544.066][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094544.066][INFO]: Waiting for pending navigations...
+[1596094544.067][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.073][INFO]: Waiting for pending navigations...
+[1596094544.073][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.073][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094544.283][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094544.283][INFO]: Waiting for pending navigations...
+[1596094544.283][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.289][INFO]: Waiting for pending navigations...
+[1596094544.290][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.290][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094544.499][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094544.499][INFO]: Waiting for pending navigations...
+[1596094544.500][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.505][INFO]: Waiting for pending navigations...
+[1596094544.506][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.506][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094544.716][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094544.716][INFO]: Waiting for pending navigations...
+[1596094544.717][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.724][INFO]: Waiting for pending navigations...
+[1596094544.725][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.725][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094544.935][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094544.935][INFO]: Waiting for pending navigations...
+[1596094544.936][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.941][INFO]: Waiting for pending navigations...
+[1596094544.942][INFO]: Done waiting for pending navigations. Status: ok
+[1596094544.942][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094545.152][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094545.152][INFO]: Waiting for pending navigations...
+[1596094545.153][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.158][INFO]: Waiting for pending navigations...
+[1596094545.159][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.159][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094545.368][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094545.368][INFO]: Waiting for pending navigations...
+[1596094545.369][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.374][INFO]: Waiting for pending navigations...
+[1596094545.375][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.375][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094545.584][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094545.584][INFO]: Waiting for pending navigations...
+[1596094545.585][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.590][INFO]: Waiting for pending navigations...
+[1596094545.590][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.590][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094545.800][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Поиск']"
+}
+[1596094545.800][INFO]: Waiting for pending navigations...
+[1596094545.800][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.806][INFO]: Waiting for pending navigations...
+[1596094545.807][INFO]: Done waiting for pending navigations. Status: ok
+[1596094545.807][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Поиск']"}
+  (Session info: chrome=83.0.4103.116)
+[1596094546.024][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1596094546.024][INFO]: Waiting for pending navigations...
+[1596094546.024][INFO]: Done waiting for pending navigations. Status: ok
+[1596094546.039][INFO]: Waiting for pending navigations...
+[1596094546.040][INFO]: Done waiting for pending navigations. Status: ok
+[1596094546.040][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE ExecuteScript "\u003Chtml itemscope=\"\" itemtype=\"http://schema.org/WebPage\" lang=\"ru\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta content=\"origin\" name=\"referrer\">\u003Cmeta content=\"Поиск информации в интерне..."
+[1596094546.113][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND Screenshot {
+
+}
+[1596094546.113][INFO]: Waiting for pending navigations...
+[1596094546.114][INFO]: Done waiting for pending navigations. Status: ok
+[1596094546.371][INFO]: Waiting for pending navigations...
+[1596094546.372][INFO]: Done waiting for pending navigations. Status: ok
+[1596094546.373][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl0VdXd//HPOXfMTBhkRkRlEgdQwalqtUqdsAraVjv7OFWtqLX9SfvY1sfaSRyq1Cq1rW2dEBzQqoharSOKoIgiDpGZQCAh453P/v0RwARC7rnJvbmB836tx..."
+[1596094546.411][INFO]: [a6501b22e7439a0622fef482dc7a7be3] COMMAND Quit {
+
+}
+[1596094546.453][INFO]: [a6501b22e7439a0622fef482dc7a7be3] RESPONSE Quit
